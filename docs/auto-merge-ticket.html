@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Engage with your Telegram™ users via Zendesk Suite (Sunshine Conversations). Unleash the full Zendesk power - with omnichannel routing, macros,
-    triggers, ticket assignments and so much more!"
-    />
-    <title>How to Install: Messaging for Telegram | DataFox Labs</title>
+    <meta name="description" content="Automatically merge duplicate tickets from the same requester based on your custom conditions." />
+    <title>Ticket Auto Merge by DataFox Labs</title>
     <meta name="google-site-verification" content="4lIwE8UIseiOH8_V1_YZ9gW0vLKA528r8yk2ulH3i2A" />
+
+    <link rel="icon" sizes="192x192" href="./images/fav_icon.png" type="image/png" />
+    <link rel="shortcut icon" href="./images/fav_icon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="./images/fav_icon.png" type="image/png" />
 
     <!-- Bootstrap core CSS -->
     <link
@@ -45,13 +45,56 @@
       <div class="row g-5">
         <div class="col-md-8">
           <article class="blog-post">
-            <h1 class="fs-2">How to Install: Messaging for Telegram</h1>
+            <h1 class="fs-2">Automatically detect and merge duplicate Zendesk tickets</h1>
             <p class="text-muted text-black-50">by <a target="_blank" href="https://github.com/Datafox-Labs">DataFox Labs Team</a></p>
 
-            <p class="mt-5">
-              Engage with your Telegram™ users via Zendesk Suite (Sunshine Conversations). Unleash the full Zendesk power - with omnichannel routing, macros,
-              triggers, ticket assignments and so much more!
+            <p>
+              Automatically merge duplicate tickets using customizable rules, eliminating the need for manual intervention. Powered by Zendesk integration
+              services, the entire merging process occurs within your instance, ensuring a smooth and efficient operation. Since no data is transferred to
+              external services, all information remains secure and contained within your instance.
             </p>
+
+            <h2 class="fs-4 mt-5">Merge Zendesk Tickets using your own Duplicate Criteria</h2>
+
+            <p>You are in control of how and when a customer ticket is considered a duplicate by using additional ticket fields to be matched, such as:</p>
+
+            <ul class="hide-bullets">
+              <li>👤 Requester</li>
+              <li>🏷️ Tags</li>
+              <li>💳 Custom field value (i.e. Account ID, Product ID)</li>
+              <li>✅ Match tickets based on text extracted from requester, brand, or custom fields (i.e. same unique identifiers such as Order ID).</li>
+            </ul>
+
+            <img class="img-fluid" src="./images/ticket_merge_matching_criteria.png" />
+
+            <h2 class="fs-4 mt-5">Define Custom Trigger Conditions</h2>
+            <p>
+              Take full control of your automated processes by defining specific conditions that determine whether a procedure (merge rule) will proceed. Set
+              custom rules to trigger actions only when the necessary criteria are met, such as:
+            </p>
+
+            <ul class="hide-bullets">
+              <li>📝 Ticket Form</li>
+              <li>🎚️ Channel</li>
+              <li>💙 Brand</li>
+              <li>🎯 Priority</li>
+            </ul>
+
+            <img class="img-fluid" src="./images/ticket_merge_trigger_conditions.png" />
+
+            <h2 class="fs-4 mt-5">Narrow Search Results with Custom Filter Conditions</h2>
+            <p>
+              Prevent certain tickets from merging based on your own exclusion requirements. By setting custom filter conditions, you can control which tickets
+              are excluded from the merge process, such a:
+            </p>
+
+            <ul class="hide-bullets">
+              <li>🎚️ Tickets created from specific channel</li>
+              <li>💳 Custom field value (i.e. Order ID, Account ID)</li>
+              <li>🤖 Tickets from internal users or bots</li>
+            </ul>
+
+            <img class="img-fluid" src="./images/ticket_merge_filter_conditions.png" />
 
             <p class="mt-4">Follow the steps below to proceed:</p>
             <ol class="d-grid gap-3">

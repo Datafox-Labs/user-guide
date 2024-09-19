@@ -8,3 +8,12 @@
 img {
   cursor: zoom-in;
 }
+
+ul.hide-bullets {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul.hide-bullets li {
+  line-height: 2;
+}
