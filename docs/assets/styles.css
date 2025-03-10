@@ -17,3 +17,17 @@ ul.hide-bullets {
 ul.hide-bullets li {
   line-height: 2;
 }
+
+.yt-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+.yt-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
